@@ -72,4 +72,4 @@ io.on("connection" , function(uniquesocket){
 app.get("/",function(req,res){
     res.render("index",{title : "Chess.com"})
 })
-server.listen(3001)
+server.listen(3000)
