@@ -72,4 +72,8 @@ io.on("connection" , function(uniquesocket){
 app.get("/",function(req,res){
     res.render("index",{title : "Chess.com"})
 })
-server.listen(3000)
+
+
+server.listen(3000, () => {
+    console.log('Server running on port 3000');
+});
